@@ -29,7 +29,7 @@ function flipcard()
     this.classList.toggle('hide1');
     setTimeout(function(){
         x.classList.toggle('hide1');
-    }, 1500);
+    }, 500);
 
     if(!hasflipped)
     {
@@ -60,7 +60,7 @@ function flipcard()
 
     setTimeout(function() {
         lock=false;
-    }, 1600);
+    }, 600);
     }
 }
 
